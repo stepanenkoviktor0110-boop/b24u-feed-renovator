@@ -1,0 +1,59 @@
+name: Build feed
+
+# Канон-workflow proxy-feed для клиентов B24U. Источник Реноватора — Avito API,
+# поэтому вместо SOURCE_FEED_URL передаём 3 OAuth-ключа из Secrets.
+# Pages должен быть в режиме workflow: gh api -X PUT repos/<owner>/<repo>/pages -f build_type=workflow
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'   # каждые 6 часов (00, 06, 12, 18 UTC)
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [build-feed.mjs, package.json, .github/workflows/build-feed.yml]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Build feed
+        env:
+          RENOVATOR_AVITO_CLIENT_ID: ${{ secrets.RENOVATOR_AVITO_CLIENT_ID }}
+          RENOVATOR_AVITO_CLIENT_SECRET: ${{ secrets.RENOVATOR_AVITO_CLIENT_SECRET }}
+          RENOVATOR_AVITO_USER_ID: ${{ secrets.RENOVATOR_AVITO_USER_ID }}
+        run: |
+          npm run build
+          cp public/feed.xml feed.xml
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet feed.xml; then
+            echo "No changes in feed.xml — skip."
+          else
+            git add feed.xml
+            git commit -m "chore: rebuild Avito feed"
+            git push
+          fi
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+      - uses: actions/deploy-pages@v4
