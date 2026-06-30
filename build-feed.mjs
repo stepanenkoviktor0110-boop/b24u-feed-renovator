@@ -40,14 +40,18 @@ async function allItems(tok) {
   return out;
 }
 
+// Каталог отражает реальный ассортимент агентства. Объявления на Avito периодически
+// снимаются/переподнимаются, поэтому в фиде помечаем available=true (иначе B24U прячет
+// их как «не в продаже» и бот вообще не видит объекты), а актуальность/показ бот уводит
+// к менеджеру (см. промпт + текст описания). Переопределить: AVAILABLE_FROM_STATUS=1.
+const AVAILABLE_FROM_STATUS = process.env.AVAILABLE_FROM_STATUS === '1';
 function offerXml(it) {
   const cat = it.category?.name || 'Недвижимость';
   const addr = it.address || 'Сочи';
   const priceText = it.price ? `${Number(it.price).toLocaleString('ru-RU')} ₽` : 'по запросу';
-  const avail = it.status === 'active';
-  // B24U reads availability from description text, not the available attr — state it in words.
+  const avail = AVAILABLE_FROM_STATUS ? (it.status === 'active') : true;
   const desc = `${it.title}. ${cat}. Адрес: ${addr}. Цена объявления: ${priceText}. ` +
-    `${avail ? 'Статус: в продаже.' : 'Статус: уточняйте актуальность у менеджера.'}`;
+    `Актуальность наличия и показ уточняйте у менеджера.`;
   return `    <offer id="${it.id}" available="${avail}">
       <url>${xmlEsc(it.url)}</url>
       <price>${it.price || 0}</price>
