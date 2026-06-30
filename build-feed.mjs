@@ -67,8 +67,10 @@ function offerXml(it) {
   const priceText = it.price ? `${Number(it.price).toLocaleString('ru-RU')} ₽` : 'по запросу';
   const avail = AVAILABLE_FROM_STATUS ? (it.status === 'active') : true;
   const syn = synonyms(it.title, cat);
+  // URL дублируем В ТЕКСТ описания (не только в поле <url>): B24U индексирует name+description,
+  // и только так бот цитирует точную ссылку, а не достраивает 404 (целостность ссылок).
   const desc = `${it.title}. ${cat}. ${syn ? syn + '. ' : ''}Адрес: ${addr}. Цена объявления: ${priceText}. ` +
-    `Актуальность наличия и показ уточняйте у менеджера.`;
+    `Ссылка на объявление: ${it.url}. Актуальность наличия и показ уточняйте у менеджера.`;
   return `    <offer id="${it.id}" available="${avail}">
       <url>${xmlEsc(it.url)}</url>
       <price>${it.price || 0}</price>
