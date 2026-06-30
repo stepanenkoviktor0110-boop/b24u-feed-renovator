@@ -45,12 +45,29 @@ async function allItems(tok) {
 // их как «не в продаже» и бот вообще не видит объекты), а актуальность/показ бот уводит
 // к менеджеру (см. промпт + текст описания). Переопределить: AVAILABLE_FROM_STATUS=1.
 const AVAILABLE_FROM_STATUS = process.env.AVAILABLE_FROM_STATUS === '1';
+// B24U ищет по тексту name+description, не по структурным полям. Avito-заголовки дают
+// «1-к.», «студия» — добавляем словоформы («однокомнатная»), тип и район, иначе естественные
+// запросы («однокомнатную в Дагомысе») не цепляют объект.
+const ROOMS = { '1': 'однокомнатная 1-комнатная', '2': 'двухкомнатная 2-комнатная', '3': 'трёхкомнатная 3-комнатная', '4': 'четырёхкомнатная 4-комнатная', '5': 'пятикомнатная 5-комнатная' };
+function synonyms(title, catName) {
+  const t = title.toLowerCase();
+  const out = [];
+  if (/студи/.test(t)) out.push('квартира-студия', 'студия');
+  const m = t.match(/(\d+)-?\s*к/);
+  if (m && ROOMS[m[1]]) out.push(ROOMS[m[1]], 'квартира');
+  if (/дом|коттедж|дач/.test(t)) out.push('дом', 'коттедж', 'дача');
+  if (/гараж|машином/.test(t)) out.push('гараж', 'машиноместо');
+  if (/комнат/.test(t) && !/квартир/.test(t)) out.push('комната');
+  if (/(коммерч|офис|помещен|псн|здани)/.test(t) || /Коммерческая/i.test(catName)) out.push('коммерческая недвижимость', 'помещение');
+  return [...new Set(out)].join(' ');
+}
 function offerXml(it) {
   const cat = it.category?.name || 'Недвижимость';
   const addr = it.address || 'Сочи';
   const priceText = it.price ? `${Number(it.price).toLocaleString('ru-RU')} ₽` : 'по запросу';
   const avail = AVAILABLE_FROM_STATUS ? (it.status === 'active') : true;
-  const desc = `${it.title}. ${cat}. Адрес: ${addr}. Цена объявления: ${priceText}. ` +
+  const syn = synonyms(it.title, cat);
+  const desc = `${it.title}. ${cat}. ${syn ? syn + '. ' : ''}Адрес: ${addr}. Цена объявления: ${priceText}. ` +
     `Актуальность наличия и показ уточняйте у менеджера.`;
   return `    <offer id="${it.id}" available="${avail}">
       <url>${xmlEsc(it.url)}</url>
