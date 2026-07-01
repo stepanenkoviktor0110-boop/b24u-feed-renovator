@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2026-07-01T09:29:08">
+<yml_catalog date="2026-07-01T14:07:14">
   <shop>
     <name>СК Реноватор</name>
     <company>СК Реноватор</company>
@@ -16,6 +16,14 @@
       <category id="85">Гаражи и машиноместа</category>
     </categories>
     <offers>
+    <offer id="8234754071" available="true">
+      <url>https://www.avito.ru/sochi/kvartiry/1-k._apartamenty_308_m_24_et._8234754071</url>
+      <price>4200000</price>
+      <currencyId>RUR</currencyId>
+      <categoryId>24</categoryId>
+      <name>1-к. апартаменты, 30,8 м², 2/4 эт.</name>
+      <description>1-к. апартаменты, 30,8 м², 2/4 эт.. Квартиры. однокомнатная 1-комнатная квартира. Адрес: Краснодарский край, г.о. Сочи, пгт. Дагомыс, Летняя ул., 50. Цена объявления: 4 200 000 ₽. Ссылка на объявление: https://www.avito.ru/sochi/kvartiry/1-k._apartamenty_308_m_24_et._8234754071. Актуальность наличия и показ уточняйте у менеджера.</description>
+    </offer>
     <offer id="8234677225" available="true">
       <url>https://www.avito.ru/sochi/kvartiry/apartamenty-studiya_178_m_33_et._8234677225</url>
       <price>3870000</price>
@@ -31,6 +39,22 @@
       <categoryId>24</categoryId>
       <name>1-к. апартаменты, 30,8 м², 2/4 эт.</name>
       <description>1-к. апартаменты, 30,8 м², 2/4 эт.. Квартиры. однокомнатная 1-комнатная квартира. Адрес: Краснодарский край, г.о. Сочи, пгт. Дагомыс, Летняя ул., 50. Цена объявления: 4 200 000 ₽. Ссылка на объявление: https://www.avito.ru/sochi/kvartiry/1-k._apartamenty_308_m_24_et._8234672128. Актуальность наличия и показ уточняйте у менеджера.</description>
+    </offer>
+    <offer id="8234631444" available="true">
+      <url>https://www.avito.ru/sochi/kvartiry/apartamenty-studiya_308_m_24_et._8234631444</url>
+      <price>4250000</price>
+      <currencyId>RUR</currencyId>
+      <categoryId>24</categoryId>
+      <name>Апартаменты-студия, 30,8 м², 2/4 эт.</name>
+      <description>Апартаменты-студия, 30,8 м², 2/4 эт.. Квартиры. квартира-студия студия. Адрес: Краснодарский край, г.о. Сочи, пгт. Дагомыс, Летняя ул., 50. Цена объявления: 4 250 000 ₽. Ссылка на объявление: https://www.avito.ru/sochi/kvartiry/apartamenty-studiya_308_m_24_et._8234631444. Актуальность наличия и показ уточняйте у менеджера.</description>
+    </offer>
+    <offer id="8234434347" available="true">
+      <url>https://www.avito.ru/sochi/kvartiry/apartamenty-studiya_178_m_33_et._8234434347</url>
+      <price>3250000</price>
+      <currencyId>RUR</currencyId>
+      <categoryId>24</categoryId>
+      <name>Апартаменты-студия, 17,8 м², 3/3 эт.</name>
+      <description>Апартаменты-студия, 17,8 м², 3/3 эт.. Квартиры. квартира-студия студия. Адрес: Краснодарский край, Сочи, жилой район Адлер, ул. Панфилова, 2. Цена объявления: 3 250 000 ₽. Ссылка на объявление: https://www.avito.ru/sochi/kvartiry/apartamenty-studiya_178_m_33_et._8234434347. Актуальность наличия и показ уточняйте у менеджера.</description>
     </offer>
     <offer id="8138353897" available="true">
       <url>https://www.avito.ru/sochi/doma_dachi_kottedzhi/dom_1654_m_na_uchastke_59_sot._8138353897</url>
