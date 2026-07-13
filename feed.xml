@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2026-07-13T08:47:21">
+<yml_catalog date="2026-07-13T14:03:56">
   <shop>
     <name>СК Реноватор</name>
     <company>СК Реноватор</company>
@@ -55,6 +55,14 @@
       <categoryId>24</categoryId>
       <name>Квартира-студия, 28 м², 1/5 эт.</name>
       <description>Квартира-студия, 28 м², 1/5 эт.. Квартиры. квартира-студия студия. Адрес: Краснодарский край, Сочи, Главная ул., 7А/22. Цена объявления: 1 800 000 ₽. Ссылка на объявление: https://www.avito.ru/sochi/kvartiry/kvartira-studiya_28_m_15_et._8234596200. Актуальность наличия и показ уточняйте у менеджера.</description>
+    </offer>
+    <offer id="8234534951" available="true">
+      <url>https://www.avito.ru/sochi/kvartiry/1-k._apartamenty_379_m_34_et._8234534951</url>
+      <price>4700000</price>
+      <currencyId>RUR</currencyId>
+      <categoryId>24</categoryId>
+      <name>1-к. апартаменты, 37,9 м², 3/4 эт.</name>
+      <description>1-к. апартаменты, 37,9 м², 3/4 эт.. Квартиры. однокомнатная 1-комнатная квартира. Адрес: Краснодарский край, Сочи, СНТ Чаевод, квартал Успенка, 10. Цена объявления: 4 700 000 ₽. Ссылка на объявление: https://www.avito.ru/sochi/kvartiry/1-k._apartamenty_379_m_34_et._8234534951. Актуальность наличия и показ уточняйте у менеджера.</description>
     </offer>
     <offer id="8234434347" available="true">
       <url>https://www.avito.ru/sochi/kvartiry/apartamenty-studiya_178_m_33_et._8234434347</url>
