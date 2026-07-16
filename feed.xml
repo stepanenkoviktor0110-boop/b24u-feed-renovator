@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2026-07-15T18:54:28">
+<yml_catalog date="2026-07-16T01:42:01">
   <shop>
     <name>СК Реноватор</name>
     <company>СК Реноватор</company>
@@ -16,6 +16,22 @@
       <category id="85">Гаражи и машиноместа</category>
     </categories>
     <offers>
+    <offer id="8266749332" available="true">
+      <url>https://www.avito.ru/sochi/kvartiry/apartamenty-studiya_238_m_113_et._8266749332</url>
+      <price>4700000</price>
+      <currencyId>RUR</currencyId>
+      <categoryId>24</categoryId>
+      <name>Апартаменты-студия, 23,8 м², 1/13 эт.</name>
+      <description>Апартаменты-студия, 23,8 м², 1/13 эт.. Квартиры. квартира-студия студия. Адрес: Краснодарский край, Сочи, мкр-н Светлана, ул. Лысая Гора, 23/1. Цена объявления: 4 700 000 ₽. Ссылка на объявление: https://www.avito.ru/sochi/kvartiry/apartamenty-studiya_238_m_113_et._8266749332. Актуальность наличия и показ уточняйте у менеджера.</description>
+    </offer>
+    <offer id="8265874594" available="true">
+      <url>https://www.avito.ru/sochi/kvartiry/1-k._apartamenty_304_m_47_et._8265874594</url>
+      <price>5500000</price>
+      <currencyId>RUR</currencyId>
+      <categoryId>24</categoryId>
+      <name>1-к. апартаменты, 30,4 м², 4/7 эт.</name>
+      <description>1-к. апартаменты, 30,4 м², 4/7 эт.. Квартиры. однокомнатная 1-комнатная квартира. Адрес: Краснодарский край, Сочи, мкр-н Светлана, Учительская ул., 10. Цена объявления: 5 500 000 ₽. Ссылка на объявление: https://www.avito.ru/sochi/kvartiry/1-k._apartamenty_304_m_47_et._8265874594. Актуальность наличия и показ уточняйте у менеджера.</description>
+    </offer>
     <offer id="8234754071" available="true">
       <url>https://www.avito.ru/sochi/kvartiry/1-k._apartamenty_308_m_24_et._8234754071</url>
       <price>4200000</price>
