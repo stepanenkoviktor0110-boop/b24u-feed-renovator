@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2026-07-16T18:55:02">
+<yml_catalog date="2026-07-17T01:45:14">
   <shop>
     <name>СК Реноватор</name>
     <company>СК Реноватор</company>
@@ -16,6 +16,14 @@
       <category id="85">Гаражи и машиноместа</category>
     </categories>
     <offers>
+    <offer id="8266816509" available="true">
+      <url>https://www.avito.ru/sochi/kvartiry/apartamenty-studiya_29_m_11_et._8266816509</url>
+      <price>4400000</price>
+      <currencyId>RUR</currencyId>
+      <categoryId>24</categoryId>
+      <name>Апартаменты-студия, 29 м², 1/1 эт.</name>
+      <description>Апартаменты-студия, 29 м², 1/1 эт.. Квартиры. квартира-студия студия. Адрес: Краснодарский край, Сочи, жилой район Адлер, Орбитовская ул., 9. Цена объявления: 4 400 000 ₽. Ссылка на объявление: https://www.avito.ru/sochi/kvartiry/apartamenty-studiya_29_m_11_et._8266816509. Актуальность наличия и показ уточняйте у менеджера.</description>
+    </offer>
     <offer id="8266749332" available="true">
       <url>https://www.avito.ru/sochi/kvartiry/apartamenty-studiya_238_m_113_et._8266749332</url>
       <price>4700000</price>
@@ -23,6 +31,14 @@
       <categoryId>24</categoryId>
       <name>Апартаменты-студия, 23,8 м², 1/13 эт.</name>
       <description>Апартаменты-студия, 23,8 м², 1/13 эт.. Квартиры. квартира-студия студия. Адрес: Краснодарский край, Сочи, мкр-н Светлана, ул. Лысая Гора, 23/1. Цена объявления: 4 700 000 ₽. Ссылка на объявление: https://www.avito.ru/sochi/kvartiry/apartamenty-studiya_238_m_113_et._8266749332. Актуальность наличия и показ уточняйте у менеджера.</description>
+    </offer>
+    <offer id="8266543969" available="true">
+      <url>https://www.avito.ru/sochi/kvartiry/apartamenty-studiya_251_m_14_et._8266543969</url>
+      <price>3700000</price>
+      <currencyId>RUR</currencyId>
+      <categoryId>24</categoryId>
+      <name>Апартаменты-студия, 25,1 м², 1/4 эт.</name>
+      <description>Апартаменты-студия, 25,1 м², 1/4 эт.. Квартиры. квартира-студия студия. Адрес: Краснодарский край, Сочи, ул. Тимирязева, 42/7. Цена объявления: 3 700 000 ₽. Ссылка на объявление: https://www.avito.ru/sochi/kvartiry/apartamenty-studiya_251_m_14_et._8266543969. Актуальность наличия и показ уточняйте у менеджера.</description>
     </offer>
     <offer id="8265874594" available="true">
       <url>https://www.avito.ru/sochi/kvartiry/1-k._apartamenty_304_m_47_et._8265874594</url>
