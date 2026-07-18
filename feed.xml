@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2026-07-17T18:52:33">
+<yml_catalog date="2026-07-18T01:25:58">
   <shop>
     <name>СК Реноватор</name>
     <company>СК Реноватор</company>
@@ -32,6 +32,14 @@
       <name>Апартаменты-студия, 23,8 м², 1/13 эт.</name>
       <description>Апартаменты-студия, 23,8 м², 1/13 эт.. Квартиры. квартира-студия студия. Адрес: Краснодарский край, Сочи, мкр-н Светлана, ул. Лысая Гора, 23/1. Цена объявления: 4 700 000 ₽. Ссылка на объявление: https://www.avito.ru/sochi/kvartiry/apartamenty-studiya_238_m_113_et._8266749332. Актуальность наличия и показ уточняйте у менеджера.</description>
     </offer>
+    <offer id="8266641732" available="true">
+      <url>https://www.avito.ru/sochi/kvartiry/apartamenty-studiya_165_m_23_et._8266641732</url>
+      <price>3650000</price>
+      <currencyId>RUR</currencyId>
+      <categoryId>24</categoryId>
+      <name>Апартаменты-студия, 16,5 м², 2/3 эт.</name>
+      <description>Апартаменты-студия, 16,5 м², 2/3 эт.. Квартиры. квартира-студия студия. Адрес: Краснодарский край, Сочи, посёлок Лоо, Азовская ул., блок7. Цена объявления: 3 650 000 ₽. Ссылка на объявление: https://www.avito.ru/sochi/kvartiry/apartamenty-studiya_165_m_23_et._8266641732. Актуальность наличия и показ уточняйте у менеджера.</description>
+    </offer>
     <offer id="8266543969" available="true">
       <url>https://www.avito.ru/sochi/kvartiry/apartamenty-studiya_251_m_14_et._8266543969</url>
       <price>3700000</price>
@@ -39,14 +47,6 @@
       <categoryId>24</categoryId>
       <name>Апартаменты-студия, 25,1 м², 1/4 эт.</name>
       <description>Апартаменты-студия, 25,1 м², 1/4 эт.. Квартиры. квартира-студия студия. Адрес: Краснодарский край, Сочи, ул. Тимирязева, 42/7. Цена объявления: 3 700 000 ₽. Ссылка на объявление: https://www.avito.ru/sochi/kvartiry/apartamenty-studiya_251_m_14_et._8266543969. Актуальность наличия и показ уточняйте у менеджера.</description>
-    </offer>
-    <offer id="8265874594" available="true">
-      <url>https://www.avito.ru/sochi/kvartiry/1-k._apartamenty_304_m_47_et._8265874594</url>
-      <price>5500000</price>
-      <currencyId>RUR</currencyId>
-      <categoryId>24</categoryId>
-      <name>1-к. апартаменты, 30,4 м², 4/7 эт.</name>
-      <description>1-к. апартаменты, 30,4 м², 4/7 эт.. Квартиры. однокомнатная 1-комнатная квартира. Адрес: Краснодарский край, Сочи, мкр-н Светлана, Учительская ул., 10. Цена объявления: 5 500 000 ₽. Ссылка на объявление: https://www.avito.ru/sochi/kvartiry/1-k._apartamenty_304_m_47_et._8265874594. Актуальность наличия и показ уточняйте у менеджера.</description>
     </offer>
     <offer id="8234754071" available="true">
       <url>https://www.avito.ru/sochi/kvartiry/1-k._apartamenty_308_m_24_et._8234754071</url>
@@ -90,19 +90,19 @@
     </offer>
     <offer id="8234534951" available="true">
       <url>https://www.avito.ru/sochi/kvartiry/1-k._apartamenty_379_m_34_et._8234534951</url>
-      <price>4700000</price>
+      <price>4200000</price>
       <currencyId>RUR</currencyId>
       <categoryId>24</categoryId>
       <name>1-к. апартаменты, 37,9 м², 3/4 эт.</name>
-      <description>1-к. апартаменты, 37,9 м², 3/4 эт.. Квартиры. однокомнатная 1-комнатная квартира. Адрес: Краснодарский край, Сочи, СНТ Чаевод, квартал Успенка, 10. Цена объявления: 4 700 000 ₽. Ссылка на объявление: https://www.avito.ru/sochi/kvartiry/1-k._apartamenty_379_m_34_et._8234534951. Актуальность наличия и показ уточняйте у менеджера.</description>
+      <description>1-к. апартаменты, 37,9 м², 3/4 эт.. Квартиры. однокомнатная 1-комнатная квартира. Адрес: Краснодарский край, Сочи, СНТ Чаевод, квартал Успенка, 10. Цена объявления: 4 200 000 ₽. Ссылка на объявление: https://www.avito.ru/sochi/kvartiry/1-k._apartamenty_379_m_34_et._8234534951. Актуальность наличия и показ уточняйте у менеджера.</description>
     </offer>
     <offer id="8234434347" available="true">
       <url>https://www.avito.ru/sochi/kvartiry/apartamenty-studiya_178_m_33_et._8234434347</url>
-      <price>3250000</price>
+      <price>3750000</price>
       <currencyId>RUR</currencyId>
       <categoryId>24</categoryId>
       <name>Апартаменты-студия, 17,8 м², 3/3 эт.</name>
-      <description>Апартаменты-студия, 17,8 м², 3/3 эт.. Квартиры. квартира-студия студия. Адрес: Краснодарский край, Сочи, жилой район Адлер, ул. Панфилова, 2. Цена объявления: 3 250 000 ₽. Ссылка на объявление: https://www.avito.ru/sochi/kvartiry/apartamenty-studiya_178_m_33_et._8234434347. Актуальность наличия и показ уточняйте у менеджера.</description>
+      <description>Апартаменты-студия, 17,8 м², 3/3 эт.. Квартиры. квартира-студия студия. Адрес: Краснодарский край, Сочи, жилой район Адлер, ул. Панфилова, 2. Цена объявления: 3 750 000 ₽. Ссылка на объявление: https://www.avito.ru/sochi/kvartiry/apartamenty-studiya_178_m_33_et._8234434347. Актуальность наличия и показ уточняйте у менеджера.</description>
     </offer>
     <offer id="8233955159" available="true">
       <url>https://www.avito.ru/sochi/kvartiry/apartamenty-studiya_22_m_14_et._8233955159</url>
@@ -1762,11 +1762,11 @@
     </offer>
     <offer id="4586901176" available="true">
       <url>https://www.avito.ru/sochi/kvartiry/apartamenty-studiya_165_m_23_et._4586901176</url>
-      <price>3000000</price>
+      <price>2700000</price>
       <currencyId>RUR</currencyId>
       <categoryId>24</categoryId>
       <name>Апартаменты-студия, 16,5 м², 2/3 эт.</name>
-      <description>Апартаменты-студия, 16,5 м², 2/3 эт.. Квартиры. квартира-студия студия. Адрес: Краснодарский край, Сочи, посёлок Лоо, Азовская ул., блок7. Цена объявления: 3 000 000 ₽. Ссылка на объявление: https://www.avito.ru/sochi/kvartiry/apartamenty-studiya_165_m_23_et._4586901176. Актуальность наличия и показ уточняйте у менеджера.</description>
+      <description>Апартаменты-студия, 16,5 м², 2/3 эт.. Квартиры. квартира-студия студия. Адрес: Краснодарский край, Сочи, посёлок Лоо, Азовская ул., блок7. Цена объявления: 2 700 000 ₽. Ссылка на объявление: https://www.avito.ru/sochi/kvartiry/apartamenty-studiya_165_m_23_et._4586901176. Актуальность наличия и показ уточняйте у менеджера.</description>
     </offer>
     <offer id="4586742410" available="true">
       <url>https://www.avito.ru/sochi/kvartiry/apartamenty-studiya_25_m_13_et._4586742410</url>
