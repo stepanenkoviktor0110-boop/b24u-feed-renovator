@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2026-07-31T08:33:27">
+<yml_catalog date="2026-07-31T13:30:41">
   <shop>
     <name>СК Реноватор</name>
     <company>СК Реноватор</company>
@@ -47,6 +47,14 @@
       <categoryId>24</categoryId>
       <name>Апартаменты-студия, 30 м², 3/3 эт.</name>
       <description>Апартаменты-студия, 30 м², 3/3 эт.. Квартиры. квартира-студия студия. Адрес: Краснодарский край, Сочи, ул. Просвещения, 153Б. Цена объявления: 3 700 000 ₽. Ссылка на объявление: https://www.avito.ru/sochi/kvartiry/apartamenty-studiya_30_m_33_et._8298362645. Актуальность наличия и показ уточняйте у менеджера.</description>
+    </offer>
+    <offer id="8298345018" available="true">
+      <url>https://www.avito.ru/sochi/kvartiry/1-k._kvartira_38_m_33_et._8298345018</url>
+      <price>6900000</price>
+      <currencyId>RUR</currencyId>
+      <categoryId>24</categoryId>
+      <name>1-к. квартира, 38 м², 3/3 эт.</name>
+      <description>1-к. квартира, 38 м², 3/3 эт.. Квартиры. однокомнатная 1-комнатная квартира. Адрес: Краснодарский край, Сочи, Молодогвардейская ул., 2/57. Цена объявления: 6 900 000 ₽. Ссылка на объявление: https://www.avito.ru/sochi/kvartiry/1-k._kvartira_38_m_33_et._8298345018. Актуальность наличия и показ уточняйте у менеджера.</description>
     </offer>
     <offer id="8298262946" available="true">
       <url>https://www.avito.ru/sochi/kvartiry/kvartira-studiya_27_m_23_et._8298262946</url>
