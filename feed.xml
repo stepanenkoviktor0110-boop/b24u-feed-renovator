@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2026-08-03T19:17:56">
+<yml_catalog date="2026-08-04T01:25:26">
   <shop>
     <name>СК Реноватор</name>
     <company>СК Реноватор</company>
@@ -16,6 +16,14 @@
       <category id="85">Гаражи и машиноместа</category>
     </categories>
     <offers>
+    <offer id="8298745717" available="true">
+      <url>https://www.avito.ru/sochi/kvartiry/kvartira-studiya_257_m_44_et._8298745717</url>
+      <price>4000000</price>
+      <currencyId>RUR</currencyId>
+      <categoryId>24</categoryId>
+      <name>Квартира-студия, 25,7 м², 4/4 эт.</name>
+      <description>Квартира-студия, 25,7 м², 4/4 эт.. Квартиры. квартира-студия студия. Адрес: Краснодарский край, Сочи, посёлок Мамайский Перевал, Батумское ш., 123/67. Цена объявления: 4 000 000 ₽. Ссылка на объявление: https://www.avito.ru/sochi/kvartiry/kvartira-studiya_257_m_44_et._8298745717. Актуальность наличия и показ уточняйте у менеджера.</description>
+    </offer>
     <offer id="8298741093" available="true">
       <url>https://www.avito.ru/sochi/kvartiry/1-k._apartamenty_308_m_24_et._8298741093</url>
       <price>4700000</price>
@@ -130,11 +138,11 @@
     </offer>
     <offer id="8266793668" available="true">
       <url>https://www.avito.ru/sochi/kvartiry/kvartira-studiya_13_m_13_et._8266793668</url>
-      <price>1500000</price>
+      <price>2200000</price>
       <currencyId>RUR</currencyId>
       <categoryId>24</categoryId>
       <name>Квартира-студия, 13 м², 1/3 эт.</name>
-      <description>Квартира-студия, 13 м², 1/3 эт.. Квартиры. квартира-студия студия. Адрес: Краснодарский край, Сочи, посёлок Лоо, ул. Разина, 20/5. Цена объявления: 1 500 000 ₽. Ссылка на объявление: https://www.avito.ru/sochi/kvartiry/kvartira-studiya_13_m_13_et._8266793668. Актуальность наличия и показ уточняйте у менеджера.</description>
+      <description>Квартира-студия, 13 м², 1/3 эт.. Квартиры. квартира-студия студия. Адрес: Краснодарский край, Сочи, посёлок Лоо, ул. Разина, 20/5. Цена объявления: 2 200 000 ₽. Ссылка на объявление: https://www.avito.ru/sochi/kvartiry/kvartira-studiya_13_m_13_et._8266793668. Актуальность наличия и показ уточняйте у менеджера.</description>
     </offer>
     <offer id="8266749332" available="true">
       <url>https://www.avito.ru/sochi/kvartiry/apartamenty-studiya_238_m_113_et._8266749332</url>
