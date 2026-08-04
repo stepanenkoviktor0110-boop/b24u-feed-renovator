@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2026-08-04T13:46:26">
+<yml_catalog date="2026-08-04T19:18:17">
   <shop>
     <name>СК Реноватор</name>
     <company>СК Реноватор</company>
@@ -39,6 +39,14 @@
       <categoryId>24</categoryId>
       <name>1-к. апартаменты, 35 м², 1/5 эт.</name>
       <description>1-к. апартаменты, 35 м², 1/5 эт.. Квартиры. однокомнатная 1-комнатная квартира. Адрес: Краснодарский край, Сочи, жилой район Адлер, ул. Ленина, 172Б. Цена объявления: 4 850 000 ₽. Ссылка на объявление: https://www.avito.ru/sochi/kvartiry/1-k._apartamenty_35_m_15_et._8298726731. Актуальность наличия и показ уточняйте у менеджера.</description>
+    </offer>
+    <offer id="8298673732" available="true">
+      <url>https://www.avito.ru/sochi/kvartiry/apartamenty-studiya_178_m_33_et._8298673732</url>
+      <price>4700000</price>
+      <currencyId>RUR</currencyId>
+      <categoryId>24</categoryId>
+      <name>Апартаменты-студия, 17,8 м², 3/3 эт.</name>
+      <description>Апартаменты-студия, 17,8 м², 3/3 эт.. Квартиры. квартира-студия студия. Адрес: Краснодарский край, Сочи, жилой район Адлер, ул. Панфилова, 2. Цена объявления: 4 700 000 ₽. Ссылка на объявление: https://www.avito.ru/sochi/kvartiry/apartamenty-studiya_178_m_33_et._8298673732. Актуальность наличия и показ уточняйте у менеджера.</description>
     </offer>
     <offer id="8298672880" available="true">
       <url>https://www.avito.ru/sochi/kvartiry/1-k._apartamenty_40_m_44_et._8298672880</url>
