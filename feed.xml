@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2026-08-16T18:13:43">
+<yml_catalog date="2026-08-17T00:37:53">
   <shop>
     <name>СК Реноватор</name>
     <company>СК Реноватор</company>
@@ -16,6 +16,14 @@
       <category id="85">Гаражи и машиноместа</category>
     </categories>
     <offers>
+    <offer id="8330217362" available="true">
+      <url>https://www.avito.ru/sochi/kvartiry/apartamenty-studiya_226_m_33_et._8330217362</url>
+      <price>3700000</price>
+      <currencyId>RUR</currencyId>
+      <categoryId>24</categoryId>
+      <name>Апартаменты-студия, 22,6 м², 3/3 эт.</name>
+      <description>Апартаменты-студия, 22,6 м², 3/3 эт.. Квартиры. квартира-студия студия. Адрес: Краснодарский край, Сочи, СТ Бриз, 509. Цена объявления: 3 700 000 ₽. Ссылка на объявление: https://www.avito.ru/sochi/kvartiry/apartamenty-studiya_226_m_33_et._8330217362. Актуальность наличия и показ уточняйте у менеджера.</description>
+    </offer>
     <offer id="8298745717" available="true">
       <url>https://www.avito.ru/sochi/kvartiry/kvartira-studiya_257_m_44_et._8298745717</url>
       <price>4000000</price>
@@ -1583,14 +1591,6 @@
       <categoryId>24</categoryId>
       <name>Квартира-студия, 19 м², 1/3 эт.</name>
       <description>Квартира-студия, 19 м², 1/3 эт.. Квартиры. квартира-студия студия. Адрес: Краснодарский край, Сочи, мкр-н Новый Сочи, пер. Рахманинова, 23/2. Цена объявления: 4 400 000 ₽. Ссылка на объявление: https://www.avito.ru/sochi/kvartiry/kvartira-studiya_19_m_13_et._7402365206. Актуальность наличия и показ уточняйте у менеджера.</description>
-    </offer>
-    <offer id="7402071490" available="true">
-      <url>https://www.avito.ru/sochi/kvartiry/1-k._apartamenty_25_m_13_et._7402071490</url>
-      <price>5050000</price>
-      <currencyId>RUR</currencyId>
-      <categoryId>24</categoryId>
-      <name>1-к. апартаменты, 25 м², 1/3 эт.</name>
-      <description>1-к. апартаменты, 25 м², 1/3 эт.. Квартиры. однокомнатная 1-комнатная квартира. Адрес: Краснодарский край, Сочи, Виноградная ул., 14к3. Цена объявления: 5 050 000 ₽. Ссылка на объявление: https://www.avito.ru/sochi/kvartiry/1-k._apartamenty_25_m_13_et._7402071490. Актуальность наличия и показ уточняйте у менеджера.</description>
     </offer>
     <offer id="7402042105" available="true">
       <url>https://www.avito.ru/sochi/kvartiry/kvartira-studiya_19_m_23_et._7402042105</url>
