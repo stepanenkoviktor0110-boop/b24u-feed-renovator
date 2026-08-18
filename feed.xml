@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2026-08-18T06:24:19">
+<yml_catalog date="2026-08-18T12:22:47">
   <shop>
     <name>СК Реноватор</name>
     <company>СК Реноватор</company>
@@ -8,14 +8,22 @@
       <currency id="RUR" rate="1"/>
     </currencies>
     <categories>
-      <category id="24">Квартиры</category>
       <category id="25">Дома, дачи, коттеджи</category>
+      <category id="24">Квартиры</category>
       <category id="114">Предложение услуг</category>
       <category id="42">Коммерческая недвижимость</category>
       <category id="23">Комнаты</category>
       <category id="85">Гаражи и машиноместа</category>
     </categories>
     <offers>
+    <offer id="8330594454" available="true">
+      <url>https://www.avito.ru/sochi/doma_dachi_kottedzhi/dacha_471_m_na_uchastke_15_sot._8330594454</url>
+      <price>5500000</price>
+      <currencyId>RUR</currencyId>
+      <categoryId>25</categoryId>
+      <name>Дача 47,1 м² на участке 15 сот.</name>
+      <description>Дача 47,1 м² на участке 15 сот.. Дома, дачи, коттеджи. дом коттедж дача. Адрес: Краснодарский край, Сочи, Главная ул., 119. Цена объявления: 5 500 000 ₽. Ссылка на объявление: https://www.avito.ru/sochi/doma_dachi_kottedzhi/dacha_471_m_na_uchastke_15_sot._8330594454. Актуальность наличия и показ уточняйте у менеджера.</description>
+    </offer>
     <offer id="8330217362" available="true">
       <url>https://www.avito.ru/sochi/kvartiry/apartamenty-studiya_226_m_33_et._8330217362</url>
       <price>3700000</price>
@@ -727,14 +735,6 @@
       <categoryId>24</categoryId>
       <name>Квартира-студия, 25,9 м², 3/14 эт.</name>
       <description>Квартира-студия, 25,9 м², 3/14 эт.. Квартиры. квартира-студия студия. Адрес: Краснодарский край, Сочи, Полтавская ул., 32/14. Цена объявления: 5 600 000 ₽. Ссылка на объявление: https://www.avito.ru/sochi/kvartiry/kvartira-studiya_259_m_314_et._7722884871. Актуальность наличия и показ уточняйте у менеджера.</description>
-    </offer>
-    <offer id="7722788081" available="true">
-      <url>https://www.avito.ru/sochi/kvartiry/1-k._kvartira_257_m_46_et._7722788081</url>
-      <price>5520000</price>
-      <currencyId>RUR</currencyId>
-      <categoryId>24</categoryId>
-      <name>1-к. квартира, 25,7 м², 4/6 эт.</name>
-      <description>1-к. квартира, 25,7 м², 4/6 эт.. Квартиры. однокомнатная 1-комнатная квартира. Адрес: Краснодарский край, Сочи, ул. Ленина, 276. Цена объявления: 5 520 000 ₽. Ссылка на объявление: https://www.avito.ru/sochi/kvartiry/1-k._kvartira_257_m_46_et._7722788081. Актуальность наличия и показ уточняйте у менеджера.</description>
     </offer>
     <offer id="7722751585" available="true">
       <url>https://www.avito.ru/sochi/kvartiry/kvartira-studiya_27_m_24_et._7722751585</url>
