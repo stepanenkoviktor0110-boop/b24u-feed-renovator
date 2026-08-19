@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2026-08-19T12:22:45">
+<yml_catalog date="2026-08-19T18:18:17">
   <shop>
     <name>СК Реноватор</name>
     <company>СК Реноватор</company>
@@ -8,14 +8,22 @@
       <currency id="RUR" rate="1"/>
     </currencies>
     <categories>
-      <category id="25">Дома, дачи, коттеджи</category>
       <category id="24">Квартиры</category>
+      <category id="25">Дома, дачи, коттеджи</category>
       <category id="114">Предложение услуг</category>
       <category id="42">Коммерческая недвижимость</category>
       <category id="23">Комнаты</category>
       <category id="85">Гаражи и машиноместа</category>
     </categories>
     <offers>
+    <offer id="8330621524" available="true">
+      <url>https://www.avito.ru/sochi/kvartiry/2-k._kvartira_359_m_66_et._8330621524</url>
+      <price>5200000</price>
+      <currencyId>RUR</currencyId>
+      <categoryId>24</categoryId>
+      <name>2-к. квартира, 35,9 м², 6/6 эт.</name>
+      <description>2-к. квартира, 35,9 м², 6/6 эт.. Квартиры. двухкомнатная 2-комнатная квартира. Адрес: Краснодарский край, Сочи, Виноградная ул., 204Б/1. Цена объявления: 5 200 000 ₽. Ссылка на объявление: https://www.avito.ru/sochi/kvartiry/2-k._kvartira_359_m_66_et._8330621524. Актуальность наличия и показ уточняйте у менеджера.</description>
+    </offer>
     <offer id="8330594454" available="true">
       <url>https://www.avito.ru/sochi/doma_dachi_kottedzhi/dacha_471_m_na_uchastke_15_sot._8330594454</url>
       <price>5500000</price>
