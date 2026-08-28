@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2026-08-27T17:03:40">
+<yml_catalog date="2026-08-28T01:53:16">
   <shop>
     <name>СК Реноватор</name>
     <company>СК Реноватор</company>
@@ -271,14 +271,6 @@
       <categoryId>24</categoryId>
       <name>2-к. апартаменты, 71,3 м², 2/4 эт.</name>
       <description>2-к. апартаменты, 71,3 м², 2/4 эт.. Квартиры. двухкомнатная 2-комнатная квартира. Адрес: Краснодарский край, Сочи, посёлок Лоо, ул. Разина, 17. Цена объявления: 4 700 000 ₽. Ссылка на объявление: https://www.avito.ru/sochi/kvartiry/2-k._apartamenty_713_m_24_et._8266279766. Актуальность наличия и показ уточняйте у менеджера.</description>
-    </offer>
-    <offer id="8266260756" available="true">
-      <url>https://www.avito.ru/sochi/kvartiry/apartamenty-studiya_28_m_15_et._8266260756</url>
-      <price>3120000</price>
-      <currencyId>RUR</currencyId>
-      <categoryId>24</categoryId>
-      <name>Апартаменты-студия, 28 м², 1/5 эт.</name>
-      <description>Апартаменты-студия, 28 м², 1/5 эт.. Квартиры. квартира-студия студия. Адрес: Краснодарский край, Сочи, мкр-н Мамайка, Загородная ул., 3/6. Цена объявления: 3 120 000 ₽. Ссылка на объявление: https://www.avito.ru/sochi/kvartiry/apartamenty-studiya_28_m_15_et._8266260756. Актуальность наличия и показ уточняйте у менеджера.</description>
     </offer>
     <offer id="8266250621" available="true">
       <url>https://www.avito.ru/sochi/kvartiry/apartamenty-studiya_238_m_114_et._8266250621</url>
